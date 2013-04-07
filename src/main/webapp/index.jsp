@@ -31,12 +31,13 @@ Enter your input in this area:<br>
 </div>
 
 If you encounter any problem please feel free to e-mail me: omerbasar at gmail dot com<br>
-source code can be found at: <a href="https://code.google.com/p/turkishtolatex/source/browse/trunk/src/ConverterServlet.java" target="_blank">source code</a>
+source code can be found at: <a href="https://github.com/omerbasar/turkishtolatex/blob/master/src/main/java/ob/ConverterServlet.java" target="_blank">source code</a>
 
 <h3>Release Notes</h3>
 
 <ul>
    <li>1 April 2010 - First Release</li>
+   <li>7 April 2013 - â, î, û letters are converted too. (Special thanks to Ümit KESKİN)</li>
 </ul>
 
 <script type="text/javascript">

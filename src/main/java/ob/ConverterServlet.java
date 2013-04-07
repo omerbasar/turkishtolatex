@@ -40,7 +40,7 @@ public class ConverterServlet extends HttpServlet {
 
     }
 
-    public String turkishToLatex(String text) {
+    public static String turkishToLatex(String text) {
         return text.replace("\u011E", "\\u{G}").
                 replace("\u011F", "\\u{g}").
                 replace("\u00DC", "\\\"U").
@@ -52,6 +52,12 @@ public class ConverterServlet extends HttpServlet {
                 replace("\u00D6", "\\\"O").
                 replace("\u00F6", "\\\"o").
                 replace("\u0131", "{\\i}").
-                replace("\u0130", "\\.{I}");
+                replace("\u0130", "\\.{I}").
+                replace("\u00E2", "\\^{a}").
+                replace("\u00FB", "\\^{u}").
+                replace("\u00EE", "\\^{i}").
+                replace("\u00C2", "\\^{A}").
+                replace("\u00DB", "\\^{U}").
+                replace("\u00CE", "\\^{I}");
     }
 }
