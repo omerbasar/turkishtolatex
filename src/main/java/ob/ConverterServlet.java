@@ -58,6 +58,7 @@ public class ConverterServlet extends HttpServlet {
                 replace("\u00EE", "\\^{i}").
                 replace("\u00C2", "\\^{A}").
                 replace("\u00DB", "\\^{U}").
-                replace("\u00CE", "\\^{I}");
+                replace("\u00CE", "\\^{I}").
+                replace("%", "\\%");
     }
 }
